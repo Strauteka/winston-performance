@@ -1,0 +1,18 @@
+{
+  "name": "winston-performance",
+  "version": "1.0.0",
+  "main": "src/node-winston.js",
+  "scripts": {
+    "dev": "node ./src/node-winston.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "winston": "^3.17.0"
+  }
+  
+}
