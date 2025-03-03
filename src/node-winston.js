@@ -43,6 +43,7 @@ const logger = winston.createLogger({
 const server = http.createServer({}, (request, response) => {
   const body = JSON.stringify({ hello: "world" }) + "/n";
   if (loggerOff == false) {
+    // logger.log("debug", "Response", body);
     logger.debug("Response", body);
   }
 
